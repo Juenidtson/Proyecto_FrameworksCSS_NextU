@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width initial-scale=1'>
+    <meta name='mobile-web-app-capable' content='yes'>
+    <link rel='stylesheet' href='css/bootstrap.min.css'>
+    <link rel='stylesheet' href='font-icons/font-awesome/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='css/estilos.css'>
+    <script src='js/bootstrap.min.js'></script>
+    <title>Blog de música</title>
+  </head>
+  <body class="blog-body">
+    <header class="container"> <!-- Header -->
+      <div class="row">
+        <div class="col-sm-6 align-self-center d-flex justify-content-center justify-content-sm-start">
+        	<img class="img-fluid" src="img/logo.png" alt="Logo" width="400px" height="200px">
+        </div>
+        <div class="col-sm-6 align-self-center align-self-sm-end d-flex justify-content-center justify-content-sm-end">
+          	<img src="img/facebook.ico" alt="Facebook" width="30px" height="30px">
+          	<img src="img/instagram.ico" alt="Instagram" width="30px" height="30px">
+          	<img src="img/twitter.ico" alt="Twitter" width="30px" height="30px">
+          	<img src="img/youtube.ico" alt="Youtube" width="30px" height="30px">  
+        </div>
+      </div>
+    </header> <!-- / Header -->
+
+    <nav class="container-fluid"> <!-- Navbar -->
+        <div class="row p-3">
+	        <div class="col-sm-2 d-flex justify-content-center py-2">
+	        	<a href="index.html" class="d-flex justify-content-center bg-light rounded menu py-1 active">Inicio</a>
+	       	</div>
+	        <div class="col-sm-2 d-flex justify-content-center py-2">
+	        	<a href="artistas.html" class="d-flex justify-content-center bg-light rounded menu py-1">Artistas</a>
+	        </div>
+	        <div class="col-sm-2 d-flex justify-content-center py-2">
+	        	<a href="grupos.html" class="d-flex justify-content-center bg-light rounded menu py-1">Grupos</a>
+	        </div>
+	        <div class="col-sm-2 d-flex justify-content-center py-2">
+	        	<a href="top10.html" class="d-flex justify-content-center bg-light rounded menu py-1">Top 10</a>
+	        </div>
+	        <div class="col-sm-2 d-flex justify-content-center py-2">
+	        	<a href="letras.html" class="d-flex justify-content-center bg-light rounded menu py-1">Letras</a>
+	        </div>
+	        <div class="col-sm-2 d-flex justify-content-center py-2">
+	        	<a href="acordes.html" class="d-flex justify-content-center bg-light rounded menu py-1">Acordes</a>
+	        </div>  
+        </div>
+    </nav> <!-- / Navbar -->
+
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 py-2"> <!-- Entradas -->
+            <div class="container-fluid bg-light rounded">
+            	<h3 class="text-center py-2" id="badbunny">Bad Bunny estrena su nuevo sencillo con Natti Natasha</h3>
+              	<div class="row">
+                	<div class="col-md-7">
+                    	<p class="text-justify">Natti Natasha y Bad Bunny lograron su cometido. Con menos de un mes en la red, su canción juntos titulada “Amantes De Una Noche” logró las 120 millones de visitas. Publicada el 11 de enero en el canal de Pina Records, la canción ya se convirtió en una de las más importantes de la primera parte del año.</p>
+                	</div>
+                	<div class="col-md-5">
+                  		<img class="img-fluid" src="img/musica1.jpg" alt="BadBunny">
+                	</div>
+              	</div>
+              	<div class="row py-2 mx-2 mt-2">
+              		<div class="input-group">
+                  		<div class="input-group-prepend">
+                    		<span class="input-group-text" id="validationTooltipUsernamePrepend"><i class="fa fa-user"></i></span>
+                  		</div>
+                  		<textarea class="form-control" placeholder="Comentarios..."></textarea>
+                	</div>
+              	</div>
+              	<h3 class="text-center" id="karenmendez">¿Quién es Karen Méndez?</h3>
+              	<div class="row d-flex flex-column-reverse flex-md-row">
+                	<div class="col-md-7">
+                		<p class="text-justify">Karen Méndez es la youtuber y cantante argentina que está rompiéndolo con la canción Tu enemiga. Tajante y seductora, su pop latino tiene algo que encandila. En 2013 abrió su canal de YouTube y, como muchos artistas de su generación, comenzó subiendo covers de sus canciones favoritas a la red. Interpretaba temas de J Balvin, Nicky Jam, Calle 13, Daddy Yankee o Don Omar… y la reacción de sus fans no se hizo esperar. Hace tan solo seis meses colgó esta versión de Cóseme del cantante sevillano Beret, que es uno de los vídeos más populares en su canal con doce millones de reproducciones.</p>
+                	</div>
+                	<div class="col-md-5">
+                		<img class="img-fluid" src="img/musica2.jpg" alt="KarenMendez">
+                	</div>
+                </div>
+              	<div class="row py-2 mx-2">
+              		<div class="input-group">
+                  		<div class="input-group-prepend">
+                    		<span class="input-group-text" id="validationTooltipUsernamePrepend"><i class="fa fa-user"></i></span>
+                  		</div>
+                  		<textarea class="form-control" placeholder="Comentarios..."></textarea>
+                	</div>
+              	</div>
+            </div>
+        </div> <!-- / Entradas -->
+
+        <div class="col-md-4 py-2 d-none d-md-block"> <!-- Buscador -->
+          	<div class="container-fluid bg-dark rounded">
+            	<div class="row d-flex justify-content-center align-self-center">
+                  	<div class="input-group p-2 m-2">
+                    	<div class="input-group-prepend">
+                      		<span class="input-group-text" id="validationTooltipUsernamePrepend"><i class="fa fa-search"></i></span>
+                    	</div>
+                    	<input class="form-control" type="search" placeholder="Buscar..." aria-label="Search">
+                  	</div>
+            	</div>
+            	<div class="row">
+            		<div class="col-md-2">
+            			<img class="img-fluid" src="img/flecha.png" alt="">
+            		</div>
+            		<div class="col-md-8">
+            			<h4 class="text-center text-light">Entradas</h4>
+            			<hr>
+            		</div>
+            		<div class="col-md-2">
+            			<img class="img-fluid" src="img/flecha.png" alt="">
+            		</div>
+            	</div>
+            	<div class="row d-flex justify-content-center align-self-center m-2">
+            		<div>
+            			<a href="#badbunny" class="text-center pb-2 text-light d-flex justify-content-center align-self-center"><u>Bad Bunny estrena su nuevo sencillo con Natti Natasha</u></a>
+            		</div>
+            		<div>
+            			<a href="#karenmendez" class="text-center pb-2 text-light d-flex justify-content-center align-self-center"><u>¿Quién es Karen Méndez?</u></a>
+            		</div>
+            	</div>
+          	</div>
+        </div> <!-- / Buscador -->
+      </div>
+    </section>
+  </body>
+</html>
